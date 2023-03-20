@@ -7,7 +7,7 @@
 
 :root {
     --bg-nav: #0084FD;
-    --bg-sec: 
+    --bg-sec: #9792E4;
 }
 
 .container {
@@ -67,12 +67,11 @@ nav li a {
 
 /* section 1  */
 
-.cells {
+.cells .content {
     display: flex;
     flex-wrap: wrap;
     margin: 2rem -.5rem -1rem -.5rem;
 }
-
 
 .cell {
     background-color: salmon;
@@ -105,3 +104,55 @@ nav li a {
         cursor: pointer;
     }
 }
+
+/* section 2 */
+
+    .planning {
+        color: white;
+        background-color: var(--bg-sec);
+        margin-top: 10rem;
+    }
+
+    .planning .content {
+        display: flex;
+        padding-inline: 2rem;
+    }
+
+    .card-hero {
+    
+    }
+    
+    .img-big {
+        height: 32em;
+        margin: 5rem 1rem 3rem 0;
+    }
+
+    .card-hero h2 {
+        font-size: 1.9em;
+    }
+
+    .card-hero p {
+        margin: 3rem 0;
+        width: 90%;
+    }
+    
+    .card {
+        padding: 1rem;
+        align-self: flex-end;
+    }
+    
+    .card .content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+
+    .img-small {
+        height: 10em;
+    }
