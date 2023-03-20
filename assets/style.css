@@ -142,7 +142,7 @@ nav li a {
         width: 90%;
     }
     
-    .card {
+    .planning .content .card {
         padding: 1rem;
         align-self: flex-end;
     }
@@ -174,7 +174,7 @@ nav li a {
             height: auto;
         }
 
-        .card {
+        .planning .content .card {
             padding: 0;
         }
 
@@ -190,4 +190,37 @@ nav li a {
 
     /* section 3 testimonials */
 
-    
+    .testimonials .text {
+        text-align: center;
+    }
+
+    .testimonials .text > * {
+        margin: 2rem 0;
+    }
+
+    .testimonials .text h2 {
+        color: var(--bg-sec);
+    }
+
+    .testimonials .cards {
+        padding: 2rem 0;
+    }
+
+    .testimonials .cards .card {
+        background-color: var(--bg-sec);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+
+    .testimonials .cards .card p {
+        margin-bottom: 1.2rem;
+    }
+
+    .card img {
+        width: 10em;
+        border-radius: 50px;
+    }
