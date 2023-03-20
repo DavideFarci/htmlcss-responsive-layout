@@ -6,7 +6,60 @@
 }
 
 :root {
+    --bg-nav: #0084FD;
+    --bg-sec: 
+}
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 900px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+
+header {
+    background-color: var(--bg-nav);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav li a {
+    color: white;
+}
+
+.started {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: .5em .7em;
+}
+
+.hamburger {
+    display: none;
 }
 
 
