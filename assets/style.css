@@ -105,6 +105,12 @@ nav li a {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .cells .content {
+        flex-direction: column;
+    }
+}
+
 /* section 2 */
 
     .planning {
@@ -155,4 +161,29 @@ nav li a {
 
     .img-small {
         height: 10em;
+    }
+
+    @media screen and (max-width: 850px) {
+        .planning .content {
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+        .img-big {
+            width: 100%;
+            height: auto;
+        }
+
+        .card {
+            padding: 0;
+        }
+
+        .card .content {
+            width: 100%;
+        }
+
+        .img-small {
+            width: 50%;
+            height: auto;
+        }
     }
