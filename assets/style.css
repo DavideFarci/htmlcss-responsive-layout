@@ -62,5 +62,26 @@ nav li a {
     display: none;
 }
 
+/* main */
+
+/* section 1  */
+
+.cells {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem -.5rem -1rem -.5rem;
+}
 
 
+.cell {
+    background-color: salmon;
+    height: 200px;
+    flex-basis: 33.3333%;
+    border: 1px solid black;
+    padding: 0 .5rem 1rem;
+}
+
+.cell-hero {
+    flex-basis: 66.6666%;
+
+}
