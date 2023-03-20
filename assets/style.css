@@ -224,3 +224,17 @@ nav li a {
         width: 10em;
         border-radius: 50px;
     }
+
+    @media screen and (max-width: 850px) {
+        .testimonials {
+            padding: 0 2rem;
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+        .testimonials .cards .card {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
