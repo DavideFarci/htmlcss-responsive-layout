@@ -377,3 +377,39 @@ nav li a {
             padding-right: 0;
         }
     }
+
+    /* section 6 about-us  */
+
+    .get-started {
+        background-color: var(--bg-sec);
+    }
+
+    .get-started .content {
+        color: white;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    .get-started .content :nth-child(2) {
+        font-size: 1.8em;
+        margin: 1.5rem 0 ;
+    }
+
+    .get-started .content :nth-child(3) {
+        color: #FDC15F;
+        font-size: 3em;
+        margin-bottom: 2rem;
+    }
+
+    .get-started .content :nth-child(4) {
+        padding-inline: 11rem;
+    }
+
+    .get-started .content :nth-child(5) {
+        color: var(--bg-sec);
+        font-size: 1.1em ;
+        font-weight: bold;
+        padding: .4em 2em ;
+        border-radius: 25px;
+        margin: 1.5rem 0;
+    }
