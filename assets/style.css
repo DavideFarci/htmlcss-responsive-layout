@@ -418,8 +418,28 @@ nav li a {
         .get-started .content {
             padding-inline: 1rem;
         }
-        
+
         .get-started .content :nth-child(4) {
             padding-inline: 0;
         }
+    }
+
+    /* footer  */
+
+    footer {
+        color: white;
+        background-color: #333333;
+    }
+
+    footer .container-small {
+        text-align: center;
+        padding: 3rem 11rem;
+    }
+
+    footer .container-small p {
+        margin-bottom: 3rem;
+    }
+
+    footer .container-small  a {
+        color: var(--bg-sec);
     }
