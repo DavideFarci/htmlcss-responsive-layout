@@ -306,3 +306,57 @@ nav li a {
             width: 100%;
         }
     }
+
+    /* section 5 about us  */
+
+    .about-us .content {
+        display: flex;
+        padding: 3rem 1rem;
+    }
+
+    .about-us .text-content {
+        flex: 0 0 70%;
+    }
+
+    .about-us .text-content :first-child {
+        color: var(--bg-sec);
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .about-us .text-content :nth-child(2) {
+        margin-bottom: 2rem;
+    }
+
+    .about-us .text-content p {
+        font-size: 1.2em;
+        padding-right: 5rem;
+        line-height: 45px;
+    }
+
+    .about-us .img-content {
+        flex: 0 0 30%;
+    }
+
+    .about-us .img-content img {
+        height: 250px;
+        width: 250px;
+        border-radius: 1000px;
+    }
+
+    .about-us .img-content p {
+        color: var(--bg-sec);
+        font-size: 1.5em;
+        font-weight: bolder;
+        line-height: 40px;
+        padding-right: 9rem ;
+        margin: 2rem 0;
+    }
+
+    .about-us .img-content button {
+        background-color: var(--bg-sec);
+        color: white;
+        padding: .3em .5em;
+        border-radius: 25px;
+    }
