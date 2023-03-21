@@ -360,3 +360,20 @@ nav li a {
         padding: .3em .5em;
         border-radius: 25px;
     }
+
+    @media screen and (max-width: 850px) {
+        .about-us .content {
+            padding: 2rem 2rem;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .about-us .content {
+            flex-direction: column;
+        }
+
+        .about-us .text-content p {
+            line-height: 35px;
+            padding-right: 0;
+        }
+    }
