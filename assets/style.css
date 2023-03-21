@@ -234,7 +234,7 @@ nav li a {
         }
     }
 
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 480px) {
         .testimonials .cards .card {
             display: flex;
             flex-direction: column;
@@ -289,4 +289,20 @@ nav li a {
         font-size: 1em;
         padding: .3em 2em;
         border-radius: 20px;
+    }
+
+    @media  screen and (max-width: 850px) {
+        .benefits .cards .card {
+            width: calc(100% / 2 - 2rem);
+        }
+    }
+
+    @media  screen and (max-width: 480px) {
+        .benefits .cards {
+            flex-direction: column;
+        }
+
+        .benefits .cards .card {
+            width: 100%;
+        }
     }
