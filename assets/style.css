@@ -443,3 +443,9 @@ nav li a {
     footer .container-small  a {
         color: var(--bg-sec);
     }
+
+    @media screen and (max-width: 480px) {
+        footer .container-small {
+            padding: 3rem 1rem;
+        }
+    }
