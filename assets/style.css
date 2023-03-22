@@ -81,7 +81,7 @@ nav li a {
     flex-basis: calc(66.666% - 1rem);
     background-color: var(--bg-cards);
     line-height: 30px;
-    
+    border-radius: 1rem;
 }
 
 .cells .cell-hero .text-content {
@@ -108,6 +108,7 @@ nav li a {
     flex: calc(33.333% - 1rem);
     margin: .5rem;
     padding: 1rem;
+    border-radius: 1rem;
 }
 
 
