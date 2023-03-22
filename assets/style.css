@@ -81,6 +81,7 @@ nav li a {
     flex-basis: calc(66.666% - 1rem);
     background-color: var(--bg-cards);
     line-height: 30px;
+    
 }
 
 .cells .cell-hero .text-content {
@@ -144,6 +145,7 @@ nav li a {
 @media screen and (max-width: 480px) {
     .cells .content {
         flex-direction: column;
+        padding-inline: 1rem;
     }
 
     .cells .content .cell-hero {
