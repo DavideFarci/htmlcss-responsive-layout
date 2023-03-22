@@ -7,6 +7,7 @@
 
 :root {
     --bg-nav: #0084FD;
+    --bg-cards: #B5DDFF;
     --bg-sec: #9792E4;
 }
 
@@ -70,20 +71,55 @@ nav li a {
 .cells .content {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem -.5rem -1rem -.5rem;
-}
-
-.cell {
-    background-color: salmon;
-    height: 200px;
-    flex-basis: 33.3333%;
-    border: 1px solid black;
-    padding: 0 .5rem 1rem;
+    /* gap: 1rem; */
+    /* margin: 2rem -.5rem -1rem -.5rem; */
 }
 
 .cell-hero {
-    flex-basis: 66.6666%;
+    display: flex;
+    margin: .5rem;
+    flex-basis: calc(66.666% - 1rem);
+    background-color: var(--bg-cards);
+    line-height: 30px;
 }
+
+.cells .cell-hero .text-content {
+    flex: 0 0 50%;
+    padding: 1rem;
+}
+
+.cells .cell-hero .text-content h3 {
+    color: var(--bg-nav);
+    font-size: 1.4em;
+    margin: .5rem 0;
+}
+
+.cells .cell-hero img {
+    height: 250px;
+    align-self: end;
+}
+
+.cell {
+    background-color: var(--bg-cards);
+    font-size: .8em;
+    text-align: center;
+    line-height: 30px;
+    flex: calc(33.333% - 1rem);
+    margin: .5rem;
+    padding: 1rem;
+}
+
+
+.cell :first-child {
+    color: var(--bg-nav);
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+.cell :nth-child(2) {
+    color: var(--bg-nav);
+    margin-bottom: 1rem;
+}
+
 
 @media screen and (max-width: 850px) {
     .container {
@@ -108,6 +144,15 @@ nav li a {
 @media screen and (max-width: 480px) {
     .cells .content {
         flex-direction: column;
+    }
+
+    .cells .content .cell-hero {
+        flex-direction: column;
+    }
+
+    .cells .cell-hero img {
+        height: 200px;
+        align-self: center;
     }
 }
 
